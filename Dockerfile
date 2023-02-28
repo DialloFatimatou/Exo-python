@@ -5,7 +5,6 @@ FROM python:3.9
 WORKDIR /app
 
 # Copiez les fichiers requirements.txt dans le conteneur
-COPY requirements.txt .
 
 # Installez les dépendances de l'application
 RUN pip install --no-cache-dir -r requirements.txt
